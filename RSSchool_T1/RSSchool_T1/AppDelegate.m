@@ -1,4 +1,5 @@
 #import "AppDelegate.h"
+#import "Parser.h"
 
 @interface AppDelegate ()
 
@@ -12,6 +13,7 @@
     [self.window setRootViewController: [UIViewController new]];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
